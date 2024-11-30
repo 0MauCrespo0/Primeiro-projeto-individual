@@ -31,3 +31,12 @@ menu{
     margin-top: 0;
        
 }
+table{
+    background-color: azure;
+}
+tr,td{
+    border: 1px solid;
+    border-color: black;
+    width: 100px;
+
+}
