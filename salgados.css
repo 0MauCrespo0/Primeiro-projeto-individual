@@ -1,0 +1,70 @@
+body{background-color: rgba(206, 206, 206, 0.897);
+}
+.ladoalado{
+    background-color: rgba(48, 117, 91, 0.438);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 15px;
+}
+footer{
+    background-color: #260d61;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
+menu{
+    background-color: #9db1bd;
+    padding: 2px;/**Adiciona espaço ao redor do conteudo do menu**/
+    text-align:center;/**Alinhamento do texto**/
+    display: flex;/**usa um layout flexivel para alinhar os elementos**/
+    justify-content: center;/**alinha elementos horizontalmente**/
+    gap: 2rem;/**define a distancia entre os elemnentos**/
+    height: 50px;
+    width: 100%;
+    position:absolute;
+    z-index: 2;
+    margin-top: 0;
+}
+table{
+    border: 1px solid;
+    border-color: rgb(97, 151, 196);
+ }
+ thead{
+    background-color: rgba(175, 218, 226, 0.774);
+    color: rgb(0, 0, 0);
+    height: 15px;
+    border: white solid;
+ }
+ th{
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    border: white solid;
+ }
+ tbody{
+    background-color: rgba(115, 127, 190, 0.534);
+ }
+ td{
+    text-align: center;
+    border: 1px solid;
+    border-color: white;
+ }
+
+    .botao{
+        border: solid 1px rgb(34, 34, 117);
+        border-radius: 20px;
+        color: blue;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        text-align: center;
+    }
+    .botao:hover{
+        background-color: rgb(117, 117, 202);
+        color: white;
+        transform: scale(1.2)
+    }
