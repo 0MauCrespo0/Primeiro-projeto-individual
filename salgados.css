@@ -18,15 +18,76 @@ footer{
     margin-bottom: 0%;
 }
 menu{
-    background-color: #9db1bd;
-    padding: 2px;/**Adiciona espaço ao redor do conteudo do menu**/
-    text-align:center;/**Alinhamento do texto**/
-    display: flex;/**usa um layout flexivel para alinhar os elementos**/
-    justify-content: center;/**alinha elementos horizontalmente**/
-    gap: 2rem;/**define a distancia entre os elemnentos**/
-    height: 50px;
-    width: 100%;
-    position:absolute;
-    z-index: 2;
-    margin-top: 0;
+    background-color: #260d61;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    width:100%;
+    z-index:1000;
+    margin: 0;
 }
+.fixed{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+.menu-item{
+    color:burlywood;
+    text-decoration:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+.menu-item:hover{
+    color: #000000a8;
+    background-color:rgb(190, 87, 160);
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+
+table{
+    border: 1px solid;
+    border-color: rgb(97, 151, 196);
+ }
+ thead{
+    background-color: rgba(175, 218, 226, 0.774);
+    color: rgb(0, 0, 0);
+    height: 15px;
+    border: white solid;
+ }
+ th{
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    border: white solid;
+ }
+ tbody{
+    background-color: rgba(115, 127, 190, 0.534);
+ }
+ td{
+    text-align: center;
+    border: 1px solid;
+    border-color: white;
+ }
+
+    .botao{
+        border: solid 1px rgb(34, 34, 117);
+        border-radius: 20px;
+        color: blue;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        text-align: center;
+    }
+    .botao:hover{
+        background-color: rgb(117, 117, 202);
+        color: white;
+        transform: scale(1.2)
+    }
+    h1,h2,h3,h4,h5,h6,p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
